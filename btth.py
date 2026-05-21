@@ -1,8 +1,7 @@
-count_employee = int(input("Nhập số lượng nhân viên: "))
 
 isContinue = True
 while count_employee > 0 and isContinue:
-
+count_employee = int(input("Nhập số lượng nhân viên: "))
     while True:
         input_name = input("Nhập vào tên: ").strip()
         if input_name != "":
